@@ -1,0 +1,27 @@
+.chip {
+    position: relative;
+    border-radius: 56px;
+    width: 87px;
+    height: 32px;
+    border: solid 1px grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: transform 100ms linear;
+    cursor: move;
+ 
+}
+
+.delete-span {
+    font-size: 10px;
+    width: 17px;
+    height: 17px;
+    border-radius: 8px;
+    color: white;
+    background: #929292;
+    text-align: center;
+    cursor: pointer;
+}
+
