@@ -1,8 +1,12 @@
-<div style="display: flex;">
-    <app-chip style="display: flex;" id="{{i}}" *ngFor="let s of items; let i = index"
-      [text]="s" (delete)="deleteLabel(s)">
-    </app-chip>
-    <input type="text" [formControl]="input"
+<div class="main">
+  <span class="label">Favorite Fuist</span>
+  <div class="body">
+    <app-chip  *ngFor="let s of items; let i = index"
+    [text]="s" (delete)="deleteLabel(s)">
+     </app-chip>
+    <input type="text"  placeholder="New fruit..." [formControl]="input"
      (focus)="onFocus($event)"
      (blur)="onBlur()">
+ </div>
+   
 </div>

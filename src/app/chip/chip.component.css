@@ -11,6 +11,7 @@
     cursor: pointer;
     transition: transform 100ms linear;
     cursor: move;
+    margin-right: 10px;
  
 }
 
